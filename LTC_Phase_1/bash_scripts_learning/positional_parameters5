@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#error handling
+
+#copy file plus1
+
+source_file=$1
+shift
+
+copied_file=""
+while (( "$#" )); do
+  copied_file="${copied_file}${1}"
+  shift
+done
+
+cp "$source_file" "${source_file}${copied_file}"

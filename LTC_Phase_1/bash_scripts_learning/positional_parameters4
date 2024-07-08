@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#error handling
+
+#copy file plus1
+
+source_file=$1
+copied_file=$2
+
+if [ -z "$3" ]; then
+  cp "$source_file" "${source_file} ${copied_file}"
+else
+  additional_file=$3
+  cp "$source_file" "${source_file} ${copied_file} ${additional_file}"
+fi
