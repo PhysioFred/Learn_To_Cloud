@@ -1,2 +1,2 @@
 # Learn_To_Cloud
-https://learntocloud.guide/
+Following course: https://learntocloud.guide/
