@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "enter string: positional_parameters2 <string>"
+    exit 9999999
+fi
+
+name=$1
+
+echo "Hello, dear $name"
