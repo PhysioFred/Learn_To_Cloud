@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#error handling
-
-#copy file plus1
+#script can run handling multiple spaces now
 
 source_file=$1
 shift

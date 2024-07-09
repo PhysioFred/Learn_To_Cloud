@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check if at least one argument was provided
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 <arg1> <arg2> ..."
+  exit 1
+fi
+
+# Loop through all positional parameters
+for arg in "$@"; do
+  echo "Argument: $arg"
+done
