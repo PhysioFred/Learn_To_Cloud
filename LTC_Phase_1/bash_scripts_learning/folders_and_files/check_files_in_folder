@@ -1,0 +1,13 @@
+#!/bin/bash
+
+file_path=$1
+
+if [ -d $file_path ]; then
+    echo "directory exist"
+
+    for files in "$file_path"*; do
+    echo "$files"
+    done
+else
+    echo "no directory exist for $file_path"
+fi
