@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#select folder to sync the cloud
+file_path=$1
+
+if [ -e $file_path ]; then
+    pv $file_path | aws s3 cp - s3://tomi-in-the-sky
+    echo "file uploaded"
+else
+    echo "file not found"
+fi
+
+#check folder exist and provide feeback if not found and loop back to select folder
+
+#on successful upload confirm with message/if error capture message and dispaly to user
+
