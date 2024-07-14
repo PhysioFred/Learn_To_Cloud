@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+output=$(aws s3 ls 2>&1)
+
+if [ $? -eq 0 ];then
+    echo "You are signed in"
+else
+    echo "You are not signed in"
+fi
+
+

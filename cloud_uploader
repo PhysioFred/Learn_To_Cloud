@@ -16,7 +16,7 @@ echo ""
 echo "Which bucket would you like to upload the file to? "
 read s3_bucket_name
 
-# Check and add the "s3://" prefix if it's not already there
+#Check and add the "s3://" prefix if it's not already there
 if [[ "$s3_bucket_name" != s3://* ]]; then
     s3_bucket_name="s3://$s3_bucket_name"
 fi
@@ -38,4 +38,3 @@ fi
 
 #error handling:
 #if signed into invalid account but choose a valid file name it will still output "file uploaded"
-#
