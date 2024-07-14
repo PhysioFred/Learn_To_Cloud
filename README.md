@@ -1,5 +1,5 @@
 # Learn_To_Cloud
-Following 7 phase course: 
+Following 5 phase course: 
 https://learntocloud.guide/
 
 View capstone_projects for completed scripts. 
