@@ -1,0 +1,11 @@
+import boto3
+
+# Create a default session
+session = boto3.Session()
+
+# Create a high-level S3 resource
+s3_resource = session.resource('s3')
+
+# List all S3 buckets
+buckets = s3_resource.buckets.all()
+print(buckets)

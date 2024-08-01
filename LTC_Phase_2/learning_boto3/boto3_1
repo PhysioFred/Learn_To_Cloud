@@ -1,0 +1,11 @@
+import boto3
+
+# Create a default session
+session = boto3.Session()
+
+# Create a low-level S3 client
+s3_client = session.client('s3')
+
+# List all S3 buckets
+response = s3_client.list_buckets()
+print(response)
