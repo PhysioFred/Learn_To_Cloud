@@ -9,3 +9,6 @@ s3_resource = session.resource('s3')
 # List all S3 buckets
 buckets = s3_resource.buckets.all()
 print(buckets)
+
+print("------------------")
+print(boto3.__dict__)
