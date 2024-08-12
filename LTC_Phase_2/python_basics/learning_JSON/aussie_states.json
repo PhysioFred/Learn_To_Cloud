@@ -1,0 +1,60 @@
+{
+  "states": [
+    {
+      "name": "New South Wales",
+      "abbreviation": "NSW",
+      "area_code": "02",
+      "flora": "Waratah",
+      "fauna": "Platypus"
+    },
+    {
+      "name": "Victoria",
+      "abbreviation": "VIC",
+      "area_code": "03",
+      "flora": "Common Heath",
+      "fauna": "Leadbeater's Possum"
+    },
+    {
+      "name": "Queensland",
+      "abbreviation": "QLD",
+      "area_code": "07",
+      "flora": "Cooktown Orchid",
+      "fauna": "Koala"
+    },
+    {
+      "name": "South Australia",
+      "abbreviation": "SA",
+      "area_code": "08",
+      "flora": "Sturt's Desert Pea",
+      "fauna": "Southern Hairy-nosed Wombat"
+    },
+    {
+      "name": "Western Australia",
+      "abbreviation": "WA",
+      "area_code": "08",
+      "flora": "Red and Green Kangaroo Paw",
+      "fauna": "Numbat"
+    },
+    {
+      "name": "Tasmania",
+      "abbreviation": "TAS",
+      "area_code": "03",
+      "flora": "Tasmanian Blue Gum",
+      "fauna": "Tasmanian Devil"
+    },
+    {
+      "name": "Australian Capital Territory",
+      "abbreviation": "ACT",
+      "area_code": "02",
+      "flora": "Royal Bluebell",
+      "fauna": "Gang-gang Cockatoo"
+    },
+    {
+      "name": "Northern Territory",
+      "abbreviation": "NT",
+      "area_code": "08",
+      "flora": "Sturt's Desert Rose",
+      "fauna": "Red Kangaroo"
+    }
+  ]
+}

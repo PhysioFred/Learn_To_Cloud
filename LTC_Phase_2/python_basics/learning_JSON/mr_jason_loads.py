@@ -18,23 +18,13 @@ people_string = '''
     ]
 }
 '''
+#load up json
 
 data = json.loads(people_string)
-print(data)
 
-#type of data
-print("-"*40)
-print(f"Type of python object for data variable is a {type(data)}")
-print("-"*40)
-print(f"Type of python object for data ['people'] is a {type(data['people'])}") #can't use "" twice because throw out error
-
-#access list
-print("-"*40)
 for person in data["people"]:
-    print(person)
+    del person["phone"]
 
+new_string = json.dumps(data, indent=2) #sort_keys=True parameter if you wish to use to sort by alphabetical
 
-
-
-
-
+print(new_string)
