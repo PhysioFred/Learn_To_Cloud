@@ -20,7 +20,7 @@ people_string = '''
 '''
 #load up json
 
-data = json.loads(people_string)
+data = json.loads(people_string) #loads 
 
 for person in data["people"]:
     del person["phone"]
